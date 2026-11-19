@@ -1,68 +1,44 @@
-<p align="center"><img src="https://raw.githubusercontent.com/khnbutt118-dev/khnbutt118-dev/main/assets/medical-ai-banner.svg" alt="Hassan Butt — Pharmacy meets Artificial Intelligence" width="100%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/khnbutt118-dev/khnbutt118-dev/main/assets/medical-ai-banner.svg" width="100%" alt="Hassan Butt — Pharmacy meets Artificial Intelligence"></p>
+<p align="center"><a href="https://github.com/khnbutt118-dev">← PROFILE</a> &nbsp;·&nbsp; <a href="https://hassanbuttportfolio.vercel.app/">PORTFOLIO</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/hassan-butt-ab0036334/">LINKEDIN</a></p>
 
-<p align="center"><a href="https://github.com/khnbutt118-dev">← Back to GitHub profile</a> · <a href="https://hassanbuttportfolio.vercel.app/">Portfolio</a> · <a href="https://www.linkedin.com/in/hassan-butt-ab0036334/">LinkedIn</a></p>
+<p align="center"><img src="https://img.shields.io/badge/SYNENT-TASK%2005-087EAD?style=for-the-badge"><img src="https://img.shields.io/badge/LEVEL-INTERMEDIATE-155E9A?style=for-the-badge"><img src="https://img.shields.io/badge/ANALYTICS-SUPERSTORE-0B719E?style=for-the-badge"></p>
 
----
+# 💹 Superstore · Sales & Profit Intelligence
+**A business-performance analysis of revenue, product trends, discounting and profitability.**
 
-# Sales Data Analysis (Superstore)
+<table><tr><td align="center"><h2>$2.30M</h2><sub>Total revenue</sub></td><td align="center"><h2>$286.4K</h2><sub>Total profit</sub></td><td align="center"><h2>12.5%</h2><sub>Profit margin</sub></td><td align="center"><h2>9,994</h2><sub>Rows analysed</sub></td></tr></table>
 
-> Synent Technologies Data Science Internship | Task 5 (Intermediate level) | Author: Hassan Butt
+## 📊 Visual report
 
-## Problem statement
-Analyse business performance: monthly revenue trends, top-selling products and profit drivers.
+<p align="center"><img src="outputs/monthly_revenue_trend.png" alt="Monthly revenue trend" width="90%"></p>
+<p align="center"><img src="outputs/top_selling_products.png" alt="Top selling products" width="90%"></p>
+<p align="center"><img src="outputs/profit_analysis.png" alt="Profit analysis" width="90%"></p>
+<p align="center"><img src="outputs/discount_vs_profit.png" alt="Discount versus profit" width="90%"></p>
 
-## Dataset details
-- **Dataset:** Superstore Sales dataset
-- **Source:** https://www.kaggle.com/datasets/vivek468/superstore-dataset-final
-- **Size used:** 9,994 rows x 21 columns
+## 🔎 Business highlights
+| Indicator | Finding |
+|:--|:--|
+| Strongest month | **November 2017** |
+| Top product by revenue | Canon imageCLASS 2200 Advanced Copier · **$61,600** |
+| Most profitable sub-category | Copiers |
+| Loss-making sub-categories | Tables, Bookcases, Supplies |
+| Discount signal | Margin falls from **29.5%** with no discount to **−119.2%** in the highest discount band |
 
-## Approach
-1. Monthly revenue and profit trends with seasonality
-2. Top 10 products by revenue and quantity
-3. Profit analysis by category, sub-category and region, including loss-making groups
-4. Impact of discounts on profit margin
-5. Auto-generated business insights report
+## 🧭 Analysis workflow
+`Monthly trends` → `Product ranking` → `Category & regional profit` → `Discount impact` → `Business insights report`
 
-## Results
-| Metric | Value |
-|---|---|
-| Total revenue | $2,297,201 |
-| Total profit | $286,397 |
-| Profit margin | 12.5% |
-| Best month | Nov 2017 |
-| Top product | Canon imageCLASS 2200 Advanced Copier |
-
-**Key insights**
-
-- Total revenue was $2,297,201 with $286,397 profit (margin 12.5%).
-- Revenue peaked in November 2017 and was lowest in February 2014; calendar month 11 is the strongest overall.
-- The top product by revenue is 'Canon imageCLASS 2200 Advanced Copier' ($61,600).
-- Loss-making sub-categories: Tables, Bookcases, Supplies. The most profitable sub-category is Copiers.
-- Profit margins fall as discounts rise: 29.5% with no discount vs -119.2% in the highest discount band.
-
-**Figures**
-
-![monthly_revenue_trend.png](outputs/monthly_revenue_trend.png)
-![seasonality_and_yearly.png](outputs/seasonality_and_yearly.png)
-![top_selling_products.png](outputs/top_selling_products.png)
-![profit_analysis.png](outputs/profit_analysis.png)
-![discount_vs_profit.png](outputs/discount_vs_profit.png)
-
-**Other output files:** `business_insights_report.md`
-
-## How to run
+## ▶️ Reproduce
 ```bash
 pip install -r requirements.txt
 python main.py
 ```
 
-## Project structure
-```
-main.py            # full analysis / pipeline
-requirements.txt
-data/              # dataset (see data/README.md)
-outputs/           # figures, tables and reports
-```
+<details><summary><b>Dataset & deliverables</b></summary>
 
-## Academic integrity
-All analysis code and write-ups in this repository were written by the author. The dataset belongs to its original creators (see link above).
+- Dataset: [Superstore Sales](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+- Data used: 9,994 rows × 21 columns
+- Report: `business_insights_report.md`
+- Figures and analysis outputs: `outputs/`
+
+</details>
+<p align="center"><sub>Python · Pandas · Data visualisation · Business analytics</sub></p>
