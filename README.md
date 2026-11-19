@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/khnbutt118-dev/khnbutt118-dev/main/assets/medical-ai-banner.svg" width="100%" alt="Hassan Butt — Pharmacy meets Artificial Intelligence"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/khnbutt118-dev/synent-task5-salesanalysis-hassanbutt/main/assets/project-banner.svg" width="100%" alt="SALES INTELLIGENCE — Revenue · profitability · business insights"></p>
 <p align="center"><a href="https://github.com/khnbutt118-dev">← PROFILE</a> &nbsp;·&nbsp; <a href="https://hassanbuttportfolio.vercel.app/">PORTFOLIO</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/hassan-butt-ab0036334/">LINKEDIN</a></p>
 
 <p align="center"><img src="https://img.shields.io/badge/SYNENT-TASK%2005-087EAD?style=for-the-badge"><img src="https://img.shields.io/badge/LEVEL-INTERMEDIATE-155E9A?style=for-the-badge"><img src="https://img.shields.io/badge/ANALYTICS-SUPERSTORE-0B719E?style=for-the-badge"></p>
